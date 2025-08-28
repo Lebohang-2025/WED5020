@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forms</title>
+</head>
+<body><nav class="navbar">
+<ul class="nav-links">
+<li><a href="home.html">Home</a>/li>
+<li><a href="#">Contact us</a>/li>
+<li><a href="gallery.html">Gallery</a>/li>
+<li><a href="about.html">About</a>/li>  
+
+
+</ul>
+</nav>
+<main>
+    <section class="contact-intro container">
+      <h2>Get in Touch</h2>
+      <p>We’d love to hear from you. Fill out the form below or reach us via the details provided.</p>
+    </section>
+
+    <section class="contact-details container">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <ul>
+          <li>Address: 123 Main Street, Johannesburg,Gauteng</li>
+          <li>Phone: +123 456 7890</li>
+          <li>Email: info@tailoringandshoerepair..com</li>
+        </ul>
+      </div>
+
+
+    <h1>Contact</h1>
+    <div class="form-section"></div>
+    <form>
+    <label for="fname">First Name</label>
+        <input id="name" type="text" autocomplete="name" required> <br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" autocomplete="email" required> <br>
+
+        <label for="Password">Password:</label>
+        <input id="Password" type="password" autocomplete="password" required> <br>
+
+        <label for="phone">Cell number:</label>
+        <input id="phone" type="phone" autocomplete="phone" required> <br>
+
+        <label for="pickup">Consultation date:</label>
+        <input id="pickup" name="pickup" type="date"min="2025-08-21" required>
+
+        <label>Note:</label>
+        <textarea id="feedback" placeholder="enter your feedback"></textarea><br>
+
+        <label for="College">College near you:</label>
+        <select id="College" name="College" required>
+        <option value=""selected disable></option>
+        <option>Braamfontein</option>
+        <option>Pretoria</option>
+        <option>Polokwane</option>
+        <option>Bloemfontein</option>
+        </select><br>
+
+        <button>Submit</button>
+    </form>
+</div>
+</body>
+</html>
